@@ -1,1 +1,0 @@
-# CGW-project_Designing-a_Laval_nozzle
