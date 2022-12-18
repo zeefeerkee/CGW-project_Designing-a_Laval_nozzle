@@ -21,7 +21,6 @@ def rad(val):
 
 
 def mh_forM(a, b, ε, k):
-    root = 0
     fa = nu_forroot(a,k)
     fb = nu_forroot(b,k)
     fx = 0.0
@@ -47,7 +46,6 @@ def mh_forM(a, b, ε, k):
 
 
 def mh_forl(r, rcr,a, b, ε, k):
-    root = 0
     q1 = np.power(rcr/r, 2)
     fa = q(a,k, q1)
     fb = q(b,k, q1)
@@ -137,20 +135,7 @@ def solvewastes(w, k, R, mu, Tk, pk, Tw, Ra):
     print(ksim, "+", ksip, " = ", w[21])
 
     return w
-
-
-def pil(p, q):
-
-    return p1
-
-
-def tl(t, q):
-    return t1
-
-
-def Ml(M, r):
-    return M1
-
+    
 
 P = 10.0*pow(10,4) #тяга
 pk = 40.0*pow(10,5) #давление в камере сгорания
